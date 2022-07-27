@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+.botonera {
+  background-color: rgba(238, 188, 247, 0.5);
+}
+
+#contacto img {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+}
+
+.img-logo {
+  width: 20%;
+}
+
+.bg-gradiant {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, rgba 2, 0, 36, 1 0%, rgba(53, 117, 158, 0.7710434516) 58%, rgb(0, 212, 255) 100%);
+}
+
+.img-object {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.img-object-testimonios {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.bt-gradiant {
+  background-image: radial-gradient(circle 674px at 18.3% 77%, rgb(139, 186, 244) 3.4%, rgb(15, 51, 92) 56.6%);
+}
+.bt-gradiant:hover {
+  background-image: radial-gradient(circle 674px at 18.3% 77%, rgb(15, 51, 92) 3.4%, rgba 139, 186, 244, 1 56.6%);
+}
+
+.bt-gradiant .div-gradiant-testimonios {
+  background: linear-gradient(#f8f9fa, #343a40);
+}
+
+.clientes {
+  background-color: aquamarine;
+  padding: 1em 2em;
+}
+.clientes div div img {
+  width: 200px;
+}
+
+.img-logo-f {
+  width: 50%;
+}
+
+.img-iconos-footer {
+  width: 25px;
+}
+
+.rotate:hover {
+  transform: rotateZ(360deg);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.scale:hover {
+  transform: scale(1.2);
+}
+
+/* Animaciones */
+@keyframes anime {
+  0% {
+    background-color: #343a40;
+  }
+  25% {
+    background-color: aquamarine;
+  }
+  50% {
+    background-color: blueviolet;
+  }
+  75% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: #343a40;
+  }
+}
+.animateDiv {
+  animation-name: anime;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 10s;
+  animation-delay: 0;
+}
+
+@keyframes textAlpha {
+  from {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

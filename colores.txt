@@ -1,0 +1,5 @@
+#535353 gris
+ff0e0e rojo
+
+#343a40 bg-dark
+#f8f9fa bg-light

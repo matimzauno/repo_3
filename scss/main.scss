@@ -1,0 +1,39 @@
+//Imports
+@import "_vars";
+@import "_navBar";
+@import "_delpico";
+@import "_tours";
+@import "_traslados";
+@import "_footer";
+
+
+.rotate:hover{
+    transform:rotateZ(360deg);
+    cursor: pointer;
+    transition: 1s;
+}
+.scale:hover{
+    transform: scale(1.2);
+}
+
+/* Animaciones */
+@keyframes anime{
+    0%{background-color: #343a40;}
+    25%{background-color: aquamarine;}
+    50%{background-color: blueviolet;}
+    75%{background-color: yellowgreen;}
+    100%{background-color: #343a40;}
+}
+.animateDiv{
+    animation-name: anime;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-delay: 0;
+}
+
+@keyframes textAlpha{
+    from{
+        opacity: 1;
+    }
+}
