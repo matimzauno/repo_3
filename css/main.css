@@ -97,5 +97,29 @@
     opacity: 1;
   }
 }
+/* Extends */
+.btn-more, .btn-rounded {
+  background: linear-gradient(to top, violet, deeppink);
+  width: 100px;
+  height: 30px;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.btn-more:hover, .btn-rounded:hover {
+  color: black;
+  width: 110px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.btn-rounded {
+  border-radius: 6px;
+}
+
+/* maps */
+.botonera {
+  background-color: #eebcf7;
+}
 
 /*# sourceMappingURL=main.css.map */

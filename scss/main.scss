@@ -37,3 +37,42 @@
         opacity: 1;
     }
 }
+
+
+//mixins
+
+/* Extends */
+
+.btn-more{
+    background: linear-gradient(to top, violet, deeppink);
+    width: 100px;
+    height: 30px;
+    border:none;
+    display: flex;
+    
+    align-items: center;
+    &:hover{
+        color:black;
+        width: 110px;
+        height: 40px;
+        cursor: pointer;
+    }
+}
+
+.btn-rounded{
+    @extend .btn-more;
+    border-radius: 6px;
+
+}
+
+/* maps */
+$paletaColores:(
+    'principal': #af40f6,
+    'secundario': #9b9a9b,
+    'colorUno': black,
+    'colorDos': #eebcf7,
+);
+
+.botonera{
+    background-color: map-get($map: $paletaColores, $key: 'colorDos');
+}
