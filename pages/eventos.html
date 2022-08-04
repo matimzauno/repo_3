@@ -6,75 +6,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta name="description" content="Traslados a Eventos en Mendoza. Recomendaciones de Eventos, traslados a alojamientos.">
     <meta name="keywords" content="traslados, Mendoza, tours, cacheuta, bodegas, caminos del vino, eventos, alojamientos">
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!-- css propio -->
+     <link rel="stylesheet" href="/css/main.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
     <title>Eventos</title>
 </head>
 <body>
-    <header>
-        <div>
-            <div>
-                <img src="/images/iconos/telefono.png" width="12px" height="12px" alt="Icono telefono" >     
-                <p>0800-333-4455</p>
-            </div>
-            <div>
-                <img src="images/iconos/email.png" width="12px" height="12px" alt="Icono email" >     
-                <p>hola@delpicotraslados.com.ar</p>
-            </div>
-            <div>
-                <a href="facebook.com" target="_blank"><img src="/images/iconos/facebook.png" width="15px" height="15px" alt="Icono Facebook"></a>
-                <a href="facebook.com" target="_blank"><img src="/images/iconos/instagram.png" width="15px" height="15px" alt="Icono instagram"></a>
-                <a href="facebook.com" target="_blank"><img src="/images/iconos/twitter.png" width="15px" height="15px" alt="Icono Twitter"></a>
-            </div>
-        </div>
-        <nav>
-            <a href="/index.html"><img src="/images/Logo.png&text=Logo+Delpico" alt="Logo Delpico Traslados"></a>
-            <ul>
-                <li>
-                    <a href="/index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="/pages/tours.html">Tours</a>
-                </li>
-                <li>
-                    <a href="/pages/traslados.html">Traslados</a>
-                </li>   
-                <li>
-                    <a href="/pages/eventos.html">Eventos</a>
-                </li>
-                <li>
-                    <a href="/pages/nosotros.html">Nosotros</a>
-                </li>
-            </ul>
     
-        </nav>
-    </header>
-    <!-- Inicio de contenido Eventos -->
+  <div class="p-1 text-center text-white d-flex justify-content-around contacto" id="contacto">
+    <div class="d-flex">
+      <img src="/images/iconos/telefono.png" alt="Icono telefono">     
+      <p>0800-333-4455</p>
+    </div>
+    <div class="d-flex">
+      <img src="/images/iconos/email.png" alt="Icono email" >     
+      <p>hola@delpicotraslados.com.ar</p>
+    </div>
+    <div class="">
+      <a href="facebook.com" target="_blank"><img src="/images/iconos/facebook.png"  alt="Icono Facebook" class="scale"></a>
+      <a href="facebook.com" target="_blank"><img src="/images/iconos/instagram.png" alt="Icono instagram" class="scale"></a>
+      <a href="facebook.com" target="_blank"><img src="/images/iconos/twitter.png" alt="Icono Twitter" class="scale"></a>
+  </div>
+  </div>
+    <!-- Inicia Nav -->
+    <nav class="navbar navbar-expand-md navbar-light botonera sticky-top  fs-5">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/images/logo1.png" alt="Logo Delpico" class="img-logo">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html" >Delpico</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/tours.html" >Tours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/traslados.html">Traslados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/eventos.html" >Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/nosotros.html" >Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>            <!-- Inicio de contenido Eventos -->
     <main>
 <h1>Traslados a Eventos</h1>
     </main>
     <!-- Footer -->
-<footer>
-    <div>
-        <a href="index.html"><img src="/images/Logo.png&text=Logo+Delpico" alt="Logo"></a>
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark text-center">
+        <section>
+          <div class="row">
+            <div class="col-sm-12 col-md-4 p-5">
+              <img src="/images/logo1.png" alt="Logo" class="img-logo-f">
+      
+            </div>
+            <div class="col-sm-12 col-md-4 p-5 text-white">
+              <div>
+                    <h4 class="fs-5">¡Contactanos!</h4>
+                </div>
+                <div class="d-flex fs-5">
+                  <a href="https://api.whatsapp.com/send?phone=542616949732&text=Hola!%20Me%20contacto%20desde%20la%20web">
+                  <img src="/images/iconos/whatsapp.png" alt="Whatsapp" class="img-iconos-footer px-2">
+                    </a>     
+                      <p>+54 9 2616 949732261</p>
+                </div>
+                <div class="d-flex fs-5">
+                  <a href="tel:08103334455">
+                    <img src="/images/iconos/telefono.png" alt="Telefono"  class="img-iconos-footer px-2">
+                  </a>
+                      <p>08103334455</p>
+                </div>
+                <div class="d-flex fs-5">
+                  <a href="mailto:hola@delpicotraslados.com.ar" target="_blank">
+                  <img src="/images/iconos/email.png" alt="Icono email" class="img-iconos-footer px-2"></a>
+                      <p>hola@delpicotraslados.com.ar</p>
+                </div>
+              </div>
+      
+              <div class="col-sm-12 col-md-4 p-5 text-center text-white">
+                <div>
+                  <h4>Nuestras Redes</h4>
+                </div>
+                <div>
+                  <a href="facebook.com" target="_blank">
+                    <img src="/images/iconos/facebook.png" alt="Icono Facebook" class="img-iconos-footer scale">
+                  </a>
+                  <a href="twitter.com" target="_blank">
+                    <img src="/images/iconos/twitter.png" alt="Icono Twitter" class="img-iconos-footer scale">
+                  </a>
+                  <a href="instagram.com" target="_blank">
+                       <img src="/images/iconos/instagram.png" alt="Icono Instagram" class="img-iconos-footer scale">
+                  </a>
+                </div>
+              </div>
+                
+              </div>        
+            </div>
+          </div>
+        </section>
         
-    </div>
-    <div>
-        <h3>Delpico Traslados</h3>
-        <p>Calle Falsa 123 - Ciudad de Mendoza</p>
-        <p>Lunes a viernes de 08 a 21 horas</p>
-        <p>0800-333-4455</p>
-    </div>
-    <div>
-        <p>Whatsapeanos</p>
-        <a href="https://api.whatsapp.com/send?phone=542616949732&text=Hola!%20Me%20contacto%20desde%20la%20web"><img src="/images/iconos/whatsapp.png" alt="Icono Whatsapp" width="15px" height="15px"></a>
-        <br>
-        <img src="/images/iconos/telefono.png" width="12px" height="12px" alt="Icono telefono" >     
-        <p>0800-333-4455</p>
-        <img src="images/iconos/email.png" width="12px" height="12px" alt="Icono email" >     
-        <p>hola@delpicotraslados.com.ar</p>
-        <a href="facebook.com" target="_blank"><img src="/images/iconos/facebook.png" width="15px" height="15px" alt="Icono Facebook"></a>
-                   <a href="facebook.com" target="_blank"><img src="/images/iconos/instagram.png" width="15px" height="15px" alt="Icono instagram"></a>
-                   <a href="facebook.com" target="_blank"><img src="/images/iconos/twitter.png" width="15px" height="15px" alt="Icono Twitter"></a>
-    </div>
-</footer>
+         </footer>
 </body>
 </html>
