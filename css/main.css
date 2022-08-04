@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
-.botonera {
-  background-color: rgba(238, 188, 247, 0.5);
-}
-
 #contacto img {
   width: 20px;
   height: 20px;
@@ -99,11 +95,13 @@
 }
 /* Extends */
 .btn-more, .btn-rounded {
-  background: linear-gradient(to top, violet, deeppink);
-  width: 100px;
-  height: 30px;
+  background-color: #EB1D36;
+  width: 110px;
+  height: 40px;
+  color: white;
   border: none;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .btn-more:hover, .btn-rounded:hover {
@@ -115,11 +113,16 @@
 
 .btn-rounded {
   border-radius: 6px;
+  background: linear-gradient(to top, #3F4E4F, #F1F1F1);
 }
 
 /* maps */
 .botonera {
-  background-color: #eebcf7;
+  background-color: white;
+}
+
+.contacto {
+  background-color: #2C3639;
 }
 
 /*# sourceMappingURL=main.css.map */

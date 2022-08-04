@@ -44,12 +44,13 @@
 /* Extends */
 
 .btn-more{
-    background: linear-gradient(to top, violet, deeppink);
-    width: 100px;
-    height: 30px;
+    background-color: #EB1D36;
+    width: 110px;
+    height: 40px;
+    color: white;
     border:none;
     display: flex;
-    
+    justify-content: center;
     align-items: center;
     &:hover{
         color:black;
@@ -62,17 +63,22 @@
 .btn-rounded{
     @extend .btn-more;
     border-radius: 6px;
+    background: linear-gradient(to top, #3F4E4F, #F1F1F1);
 
 }
 
 /* maps */
 $paletaColores:(
     'principal': #af40f6,
-    'secundario': #9b9a9b,
+    'secundario': #F1F1F1,
     'colorUno': black,
-    'colorDos': #eebcf7,
+    'colorDos': #2C3639,
+    'colorTres': white,
 );
 
 .botonera{
+    background-color: map-get($map: $paletaColores, $key: 'colorTres');
+}
+.contacto{
     background-color: map-get($map: $paletaColores, $key: 'colorDos');
 }
