@@ -9,6 +9,12 @@
   width: 20%;
 }
 
+.img-car {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 .bg-gradiant {
   background: rgb(2, 0, 36);
   background: linear-gradient(180deg, rgba 2, 0, 36, 1 0%, rgba(53, 117, 158, 0.7710434516) 58%, rgb(0, 212, 255) 100%);
@@ -77,6 +83,14 @@
 
 .img-iconos-footer {
   width: 25px;
+}
+
+.textContact {
+  font-size: 1em;
+}
+
+.tituloContact {
+  font-size: 1.5em;
 }
 
 .rotate:hover {
